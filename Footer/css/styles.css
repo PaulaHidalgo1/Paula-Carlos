@@ -25,10 +25,18 @@ footer{
 
 .footer-menu-container{
 
+
+    /*border: 1px solid white;*/
+
+    width: 500px;
+    margin: 20px auto;
+    padding: 0;
+
     border: 2px solid #f2f2f2;
     width: 500px;
     margin: 20px auto;
     padding: 0 7px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,19 +55,34 @@ footer{
     height: 50px;
     width: 50px;
     border-radius: 50px;
+
+    border: 1px solid black;
+    background-color: black;
+    background-image:url("./img/Facebook_White.png");
+    background-position: center;
+    background-size: 70%;
+
     border: 1px solid white;
     background-color: white;
     background-image:url("./img/Facebook-logo.png");
     background-position: center;
     background-size: 100%;
+
     background-repeat: no-repeat;
     margin: 1rem;
 }
+
+
+/* .social-icon:hover{
+    background-color: rgb(207, 210, 214);
+    
+}*/
 
 .social-icon:hover{
     background-color: rgb(207, 210, 214);
     
 }
+
 
 .social-icon:nth-of-type(2){
     background-image: url("./img/Instagram-White.png");
@@ -69,7 +92,11 @@ footer{
 }
 
 .social-icon:nth-of-type(3){
+
+    background-image: url("./img/Twiiter_White.png");
+
     background-image: url("./img/Twitter-logo.png");
+
     background-size: 55%;
 }
 
@@ -104,10 +131,18 @@ footer{
 }
 
 .divider{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
     border-bottom: 1px solid rgb(46, 97, 165);
     margin: 2px 0px;
     height: 5px;
 }
+
 
 .MANITAS{
     color: #f2f2f2;
